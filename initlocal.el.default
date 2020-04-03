@@ -1,0 +1,8 @@
+(load-file "~/.emacs.d/config/cedet.el") ; настройки cedet
+
+;(ede-cpp-root-project "u"
+;                      :name "replication"    
+;                      :file "C:/Development/u/makefile"
+;                      :include-path '("/" "/include" )
+;                      :system-include-path '("C:/cygwin/usr/include" "C:/cygwin/lib/gcc/i686-pc-cygwin/4.5.3/include/c++"))
+;

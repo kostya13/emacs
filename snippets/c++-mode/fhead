@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: file header
+# key: fhead
+# --
+/**
+@file 
+
+@brief  ${1:desc}
+
+@details Copyright (c) 2001-2014 Acronis
+
+@author  Konstantin Ilyashenko (Konstantin.Ilyashenko@acronis.com)
+
+@since   $Id$
+
+*/

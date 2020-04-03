@@ -1,0 +1,47 @@
+# -*- mode: snippet -*-
+# name: unittest template
+# key: unittest
+# --
+/**
+@file
+
+@brief   
+
+@details Copyright (c) 2001-2013 Acronis
+
+@author  Konstantin Ilyashenko (Konstantin.Ilyashenko@acronis.com)
+
+@since   $Id: get_slice_disk_sizes_command_test.cpp 857100 2013-10-21 06:26:50Z KIlyashenko $
+*/
+
+
+#include <test/gtest_utils/gtest_utils.h>
+#include <gtest/gtest.h>
+
+namespace 
+{
+}
+
+namespace 
+{
+  namespace UnitTests
+  {
+    class ${1:test}: public testing::Test
+    {
+    protected:
+      virtual void SetUp()
+      {
+      }
+
+      virtual void TearDown()
+      {
+      }
+    };
+
+      TEST_F_TRY( , )
+      {
+          ASSERT_EQ(true, true);
+      }
+      TEST_CATCH;
+  }
+}
